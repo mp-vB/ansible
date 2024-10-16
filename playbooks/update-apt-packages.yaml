@@ -1,12 +1,12 @@
 ---
-- hosts: master
+- hosts: proxmox_all_lxc
   become: yes
   tasks:
     - name: update apt packages
       apt:
           upgrade: 'yes'
           update_cache: yes
-- hosts: nodes
+- hosts: proxmox_nodes
   become: yes
   tasks:
     - name: update apt packages
