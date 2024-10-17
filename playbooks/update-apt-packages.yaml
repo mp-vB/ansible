@@ -5,8 +5,7 @@
     - name: update apt packages
       apt:
           upgrade: 'yes'
-          update_cache: yes
-          
+          update_cache: yes 
     - name: Zeige die ansible_host Variable
       debug:
         msg: "Die ansible_host Variable des Hosts ist {{ ansible_host }}"
