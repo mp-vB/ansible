@@ -1,5 +1,5 @@
 ---
-- hosts: proxmox_all_lxc
+- hosts: all_hosts
   become: yes
   tasks:
     - name: update apt packages
