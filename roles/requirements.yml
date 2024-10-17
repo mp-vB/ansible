@@ -1,0 +1,5 @@
+---
+roles:
+  - name: mondoo.client
+    src: https://github.com/mondoolabs/ansible-collection-mondoo.git
+    version: master
