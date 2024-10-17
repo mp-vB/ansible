@@ -1,5 +1,0 @@
----
-roles:
-  - name: mondoo.client
-    src: https://github.com/mondoohq/ansible-mondoo.git
-    version: master
